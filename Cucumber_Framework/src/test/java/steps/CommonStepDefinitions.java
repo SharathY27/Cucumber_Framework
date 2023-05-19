@@ -46,6 +46,7 @@ public class CommonStepDefinitions {
 			break;
 		case "edge":
 			WebDriverManager.edgedriver().setup();
+			//System.setProperty("webdriver,edge.driver", "##driver location here##"); //Another way of implementing driver
 			LOGGER.info("Launching " + GlobalVariables.BROWSER);
 			driver = new EdgeDriver();
 			break;

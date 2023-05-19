@@ -7,7 +7,6 @@ public class GlobalVariables {
 	public static String USERNAME;
 	public static String PASSWORD;
 	
-	
 	public static String chromeDriver;
 	public static String edgeDriver;
 	public static String firefoxDriver;

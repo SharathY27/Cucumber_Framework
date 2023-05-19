@@ -22,7 +22,7 @@ public class CommonUtils {
 		 */
 
 		// This is another way of loading properties file
-		// This is for reading properties file from resource folder
+		// This is for reading properties file from src/resources folder
 		Properties properties = new Properties();
 
 		try {

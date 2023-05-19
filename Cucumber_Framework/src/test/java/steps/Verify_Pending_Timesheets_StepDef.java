@@ -13,7 +13,7 @@ public class Verify_Pending_Timesheets_StepDef {
 
 	@When("the user clicks on time option from the Menu")
 	public void the_user_clicks_on_time_option_from_the_menu() {
-		System.out.println("the user clicks on time option from the Menu");
+		System.out.println("the user clicks on time option from Menu");
 	}
 
 	@When("the user enters name as {string}")
