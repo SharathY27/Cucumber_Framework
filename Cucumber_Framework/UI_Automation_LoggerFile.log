@@ -1,0 +1,20 @@
+2023-05-19 11:22:47,456 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-05-19 11:22:47,533 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-05-19 11:22:47,534 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-05-19 11:22:47,536 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-05-19 11:22:47,537 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-05-19 11:22:56,264 [INFO ] steps.CommonStepDefinitions [main] Launching edge
+2023-05-19 11:23:24,549 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-05-19 11:23:24,549 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-05-19 11:23:24,550 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-05-19 11:23:24,551 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-05-19 11:50:38,169 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-05-19 11:50:38,216 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-05-19 11:50:38,256 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-05-19 11:50:38,606 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-05-19 11:50:38,607 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-05-19 11:51:08,648 [INFO ] steps.CommonStepDefinitions [main] Launching chrome
+2023-05-19 11:53:07,085 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-05-19 11:53:07,086 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-05-19 11:53:07,086 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-05-19 11:53:07,356 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
