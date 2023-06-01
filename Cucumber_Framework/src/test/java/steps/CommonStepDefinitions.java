@@ -1,20 +1,14 @@
 package steps;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.apache.logging.log4j.Logger;
 
-import constants.GlobalVariables;
+import constants.DriverManager;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.CommonUtils;
 
 public class CommonStepDefinitions {
-
-	public static WebDriver driver;
 
 	private static final Logger LOGGER = LogManager.getLogger(CommonStepDefinitions.class);
 
@@ -30,36 +24,16 @@ public class CommonStepDefinitions {
 		LOGGER.info("Loading properties file");
 		commonUtils.loadProperties();
 		LOGGER.info("Checking the driver is NULL or NOT?");
-		if (driver == null) {
+		if (DriverManager.getDriver() == null) {
 			LOGGER.info("Driver is NULL, Instantiated!");
-			launchBrowser();
+			DriverManager.launchBrowser();
+			CommonUtils.initElements();
 		}
 	}
 
-	public void launchBrowser() {
-		switch (GlobalVariables.BROWSER.toLowerCase()) {
-		case "chrome":
-			WebDriverManager.chromedriver().setup();
-			//System.setProperty("webdriver,chrome.driver", "##driver location here##"); //Another way of implementing driver 
-			LOGGER.info("Launching " + GlobalVariables.BROWSER);
-			driver = new ChromeDriver();
-			break;
-		case "edge":
-			WebDriverManager.edgedriver().setup();
-			//System.setProperty("webdriver,edge.driver", "##driver location here##"); //Another way of implementing driver
-			LOGGER.info("Launching " + GlobalVariables.BROWSER);
-			driver = new EdgeDriver();
-			break;
-		case "firefox":
-			WebDriverManager.firefoxdriver().setup();
-			LOGGER.info("Launching " + GlobalVariables.BROWSER);
-			driver = new FirefoxDriver();
-			break;
-		default:
-			WebDriverManager.chromedriver().setup();
-			LOGGER.info("Launching " + GlobalVariables.BROWSER);
-			driver = new ChromeDriver();
-		}
+	@After
+	public void afterScenario() {
+		DriverManager.getDriver().quit();	
 	}
 
 }

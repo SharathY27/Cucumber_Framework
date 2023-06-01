@@ -1,10 +1,14 @@
 package utilities;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+
+import org.openqa.selenium.support.PageFactory;
+
+import constants.DriverManager;
 import constants.GlobalVariables;
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
 
 public class CommonUtils {
 
@@ -35,6 +39,12 @@ public class CommonUtils {
 		GlobalVariables.BROWSER = properties.getProperty("BROWSER");
 		GlobalVariables.USERNAME = properties.getProperty("USERNAME");
 		GlobalVariables.PASSWORD = properties.getProperty("PASSWORD");
+	}
+	
+	public static void initElements() {
+		//This method is to initialize page objects in LoginPage class with driver
+		PageFactory.initElements(DriverManager.getDriver(), LoginPage.class);
+		PageFactory.initElements(DriverManager.getDriver(), HomePage.class);
 	}
 
 }
