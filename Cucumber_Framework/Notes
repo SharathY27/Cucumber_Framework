@@ -1,0 +1,13 @@
+Singleton Pattern:
+
+	Single pattern is mainly used to reduce the memory usage. Singleton pattern allows only one instance per class which 
+	saves memory and also can avoid allocating and deallocating memory for multiple objects of same type.
+	
+	Whenever you are using singleton pattern make sure that in initElements method use getInstance method rather than class,
+	because we will be using same object/instance all over framework for that class. 
+	
+	Example:
+	
+	Without Singleton Pattern = PageFactory.initElements(DriverManager.getDriver(), LoginPage.class);
+	
+	With Singleton Pattern = PageFactory.initElements(DriverManager.getDriver(), LoginPage.getInstance); 
