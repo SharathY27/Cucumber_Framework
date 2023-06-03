@@ -35,7 +35,7 @@ public class Verify_CEO_Name_StepDef {
 				logger.info("the user is logged in successfully and is on the HomePage");
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e);
 		}
 
 	}
