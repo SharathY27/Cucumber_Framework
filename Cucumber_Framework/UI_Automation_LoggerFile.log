@@ -52,3 +52,14 @@ Session ID: 40b831d4d24cb8220ef8ef0e3a86aa2c
 2023-06-03 23:27:16,867 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
 2023-06-03 23:27:16,867 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
 2023-06-03 23:27:16,869 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-01 17:22:55,027 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-01 17:22:55,035 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-01 17:22:55,038 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-01 17:22:55,040 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-01 17:22:55,042 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-01 17:25:00,141 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user is logged in successfully and is on the HomePage
+2023-06-01 17:25:14,326 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user clicks on the directory option from Menu bar
+2023-06-01 17:25:20,279 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-01 17:25:20,280 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-01 17:25:20,281 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-01 17:25:20,284 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?

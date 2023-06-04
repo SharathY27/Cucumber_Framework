@@ -74,6 +74,12 @@ public class CommonUtils {
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
+		//This method is to initialize page objects in LoginPage class with driver
+//		PageFactory.initElements(DriverManager.getDriver(), LoginPage.class);
+//		PageFactory.initElements(DriverManager.getDriver(), HomePage.class);
+		
+		PageFactory.initElements(DriverManager.getDriver(), LoginPage.getInstance());
+		PageFactory.initElements(DriverManager.getDriver(), HomePage.getInstance());
 	}
 
 }
