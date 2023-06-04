@@ -7,6 +7,51 @@
 2023-06-01 17:04:50,020 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
 2023-06-01 17:04:50,022 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
 2023-06-01 17:04:50,025 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:15:32,158 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:15:32,165 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:15:32,165 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:15:32,170 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:15:32,172 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-03 23:18:10,927 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:18:10,928 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:18:10,928 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:18:10,930 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:22:20,918 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:22:20,924 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:22:20,924 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:22:20,928 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:22:20,930 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-03 23:22:27,765 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:22:27,766 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:22:27,766 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:22:27,768 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:24:45,417 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:24:45,424 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:24:45,424 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:24:45,429 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:24:45,431 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-03 23:24:51,518 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:24:51,518 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:24:51,519 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:24:51,521 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:26:48,960 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:26:48,966 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:26:48,967 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:26:48,971 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-03 23:26:48,973 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-03 23:27:14,524 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: MicrosoftEdge=113.0.1774.57)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40b831d4d24cb8220ef8ef0e3a86aa2c, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.57, ms:edgeOptions: {debuggerAddress: localhost:50478}, msedge: {msedgedriverVersion: 113.0.1774.57 (b3b212deff59..., userDataDir: C:\Users\Sharath\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50478/devtoo..., se:cdpVersion: 113.0.1774.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40b831d4d24cb8220ef8ef0e3a86aa2c
+2023-06-03 23:27:16,866 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-03 23:27:16,867 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-03 23:27:16,867 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-03 23:27:16,869 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
 2023-06-01 17:22:55,027 [INFO ] steps.CommonStepDefinitions [main] Execution started
 2023-06-01 17:22:55,035 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
 2023-06-01 17:22:55,038 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
