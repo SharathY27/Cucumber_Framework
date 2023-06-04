@@ -6,9 +6,18 @@ import org.apache.logging.log4j.Logger;
 import constants.DriverManager;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import utilities.CommonUtils;
 
 public class CommonStepDefinitions {
+	
+	public static String scenarioName=null;
+	
+	public static String getScenarioName() {
+		return scenarioName;
+	}
+	
+	
 
 	private static final Logger LOGGER = LogManager.getLogger(CommonStepDefinitions.class);
 
@@ -17,12 +26,12 @@ public class CommonStepDefinitions {
 	// goals are same (Logging).
 
 	@Before
-	public void beforeScenario() {
+	public void beforeScenario(Scenario scenario) {
+		scenarioName=scenario.getName();
 		LOGGER.info("Execution started");
 		LOGGER.info("Instantiating commonUtils");
-		CommonUtils commonUtils = new CommonUtils();
 		LOGGER.info("Loading properties file");
-		commonUtils.loadProperties();
+		CommonUtils.getInstance().loadProperties();
 		LOGGER.info("Checking the driver is NULL or NOT?");
 		if (DriverManager.getDriver() == null) {
 			LOGGER.info("Driver is NULL, Instantiated!");

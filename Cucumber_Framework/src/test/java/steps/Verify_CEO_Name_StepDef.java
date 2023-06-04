@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import utilities.CommonUtils;
 
 public class Verify_CEO_Name_StepDef {
 
@@ -16,11 +17,14 @@ public class Verify_CEO_Name_StepDef {
 
 	@Given("the user is logged in successfully and is on HomePage")
 	public void the_user_is_logged_in_successfully_and_is_on_home_page() {
-		
-		// When you try to create a object for loginPage and get username,password then it will throw NullPointerException
-		// Its because we are already initializing with PageFactory.initElements so if we try to create new Object for that class
-		// then already the value being stored by initElements method will be assigned to NULL, so it throws NULLPOINTEREXCEPTION.
-		// To solve this error we need to implement singleton pattern 
+
+		// When you try to create a object for loginPage and get username,password then
+		// it will throw NullPointerException
+		// Its because we are already initializing with PageFactory.initElements so if
+		// we try to create new Object for that class
+		// then already the value being stored by initElements method will be assigned
+		// to NULL, so it throws NULLPOINTEREXCEPTION.
+		// To solve this error we need to implement singleton pattern
 
 		try {
 			DriverManager.getDriver().get(GlobalVariables.APP_URL);
@@ -35,17 +39,21 @@ public class Verify_CEO_Name_StepDef {
 				logger.info("the user is logged in successfully and is on the HomePage");
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e);
+			CommonUtils.getInstance().takeScreenshot();
 		}
 
 	}
 
 	@When("the user clicks on the directory option from the Menu bar")
 	public void the_user_clicks_on_the_directory_option_from_the_menu_bar() {
-
-		HomePage.getInstance().getDirectory().click();
-		logger.info("the user clicks on the directory option from Menu bar");
-
+		try {
+			HomePage.getInstance().getDirectory().click();
+			logger.info("the user clicks on the directory option from Menu bar");
+		} catch (Exception e) {
+			logger.error(e);
+			CommonUtils.getInstance().takeScreenshot();
+		}
 	}
 
 	@When("the user selects the job title as {string} from the dropdown")
