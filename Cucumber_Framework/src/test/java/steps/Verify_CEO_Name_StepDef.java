@@ -28,7 +28,10 @@ public class Verify_CEO_Name_StepDef {
 
 		try {
 			DriverManager.getDriver().get(GlobalVariables.APP_URL);
-			Thread.sleep(3000);
+			Thread.sleep(16000);
+			CommonUtils.getInstance().highlightingElement(LoginPage.getInstance().getUsername());
+			Thread.sleep(2000);
+			CommonUtils.getInstance().takeScreenshot();
 			LoginPage.getInstance().getUsername().sendKeys(GlobalVariables.USERNAME);
 			LoginPage.getInstance().getPassword().sendKeys(GlobalVariables.PASSWORD);
 			LoginPage.getInstance().getLogin_Button().click();
@@ -41,6 +44,7 @@ public class Verify_CEO_Name_StepDef {
 		} catch (Exception e) {
 			logger.error(e);
 			CommonUtils.getInstance().takeScreenshot();
+			e.printStackTrace();
 		}
 
 	}

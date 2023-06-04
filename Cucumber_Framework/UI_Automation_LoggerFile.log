@@ -63,3 +63,165 @@ Session ID: 40b831d4d24cb8220ef8ef0e3a86aa2c
 2023-06-01 17:25:20,280 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
 2023-06-01 17:25:20,281 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
 2023-06-01 17:25:20,284 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:11:01,854 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:11:01,904 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:11:01,905 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:11:01,916 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:11:01,921 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:12:55,319 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: MicrosoftEdge=113.0.1774.57)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [429ae5a084aa02b53c28bee14f621dd3, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=1BA782C30F8359FBC12EAB615FF9187A_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.57, ms:edgeOptions: {debuggerAddress: localhost:57129}, msedge: {msedgedriverVersion: 113.0.1774.57 (b3b212deff59..., userDataDir: C:\Users\Sharath\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57129/devtoo..., se:cdpVersion: 113.0.1774.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 429ae5a084aa02b53c28bee14f621dd3
+2023-06-04 11:12:56,705 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: MicrosoftEdge=113.0.1774.57)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [429ae5a084aa02b53c28bee14f621dd3, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.57, ms:edgeOptions: {debuggerAddress: localhost:57129}, msedge: {msedgedriverVersion: 113.0.1774.57 (b3b212deff59..., userDataDir: C:\Users\Sharath\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57129/devtoo..., se:cdpVersion: 113.0.1774.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 429ae5a084aa02b53c28bee14f621dd3
+2023-06-04 11:13:00,187 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:13:00,188 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:13:00,188 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:13:00,190 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:14:20,305 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:14:20,314 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:14:20,315 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:14:20,323 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:14:20,325 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:15:17,631 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: MicrosoftEdge=113.0.1774.57)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1d50e8657cb454c594ddf8a7404aea52, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=576559914CA89720E26D2CB902949FE8_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.57, ms:edgeOptions: {debuggerAddress: localhost:57210}, msedge: {msedgedriverVersion: 113.0.1774.57 (b3b212deff59..., userDataDir: C:\Users\Sharath\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57210/devtoo..., se:cdpVersion: 113.0.1774.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d50e8657cb454c594ddf8a7404aea52
+2023-06-04 11:15:21,613 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: MicrosoftEdge=113.0.1774.57)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1d50e8657cb454c594ddf8a7404aea52, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.57, ms:edgeOptions: {debuggerAddress: localhost:57210}, msedge: {msedgedriverVersion: 113.0.1774.57 (b3b212deff59..., userDataDir: C:\Users\Sharath\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57210/devtoo..., se:cdpVersion: 113.0.1774.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d50e8657cb454c594ddf8a7404aea52
+2023-06-04 11:15:25,088 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:15:25,089 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:15:25,089 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:15:25,093 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:16:31,219 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:16:31,227 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:16:31,227 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:16:31,232 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:16:31,234 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:17:56,207 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c142909002a4a57c1599f3ad6fa1652f, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=3882EF916C2270519357934488626941_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57311/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c142909002a4a57c1599f3ad6fa1652f
+2023-06-04 11:17:57,255 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c142909002a4a57c1599f3ad6fa1652f, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57311}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57311/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c142909002a4a57c1599f3ad6fa1652f
+2023-06-04 11:18:01,928 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:18:01,928 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:18:01,928 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:18:01,930 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:20:37,318 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:20:37,325 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:20:37,325 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:20:37,334 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:20:37,336 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:21:11,923 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [788988a1e93d89343de596cede98106b, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=3A28AEE20F76BD4C9D430E0E1F934328_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57370/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 788988a1e93d89343de596cede98106b
+2023-06-04 11:21:14,637 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [788988a1e93d89343de596cede98106b, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57370/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 788988a1e93d89343de596cede98106b
+2023-06-04 11:21:17,348 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:21:17,349 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:21:17,350 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:21:17,354 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:23:30,515 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:23:30,522 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:23:30,522 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:23:30,526 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:23:30,529 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:24:01,654 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cabc82e9e187804b382ad52794395b, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=B2BF22F876A37FC6CF020020AFC608E3_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57418/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cabc82e9e187804b382ad52794395b
+2023-06-04 11:24:01,815 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49cabc82e9e187804b382ad52794395b, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57418/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49cabc82e9e187804b382ad52794395b
+2023-06-04 11:27:55,898 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:27:55,912 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:27:55,912 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:27:55,916 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:27:55,919 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:28:53,755 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d61f0b4f19391d0169e224984c9061e1, executeScript {script=arguments[0].setAttribute('style','border: 3px solid blue);, args=[{element-6066-11e4-a52e-4f735466cecf=0F98160E14C4EDBE084E8E013E3279F2_element_2}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57500/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d61f0b4f19391d0169e224984c9061e1
+2023-06-04 11:28:55,633 [ERROR] steps.Verify_CEO_Name_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d61f0b4f19391d0169e224984c9061e1, findElement {using=link text, value=Directory}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57500/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d61f0b4f19391d0169e224984c9061e1
+2023-06-04 11:31:14,517 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:31:14,550 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:31:14,551 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:31:14,563 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:31:14,568 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:32:45,631 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user is logged in successfully and is on the HomePage
+2023-06-04 11:32:56,224 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user clicks on the directory option from Menu bar
+2023-06-04 11:36:55,764 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-04 11:36:55,820 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-04 11:36:55,820 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-04 11:36:55,831 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-04 11:36:55,836 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-04 11:37:59,064 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user is logged in successfully and is on the HomePage
+2023-06-04 11:38:17,254 [INFO ] steps.Verify_CEO_Name_StepDef [main] the user clicks on the directory option from Menu bar

@@ -5,8 +5,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import constants.DriverManager;
@@ -70,16 +72,15 @@ public class CommonUtils {
 		File screenshot = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
 		// this will copy the screenshot in specified location
 		try {
-			FileUtils.copyFile(screenshot, new File(CommonStepDefinitions.getScenarioName()+".png"));
+			FileUtils.copyFile(screenshot, new File(CommonStepDefinitions.getScenarioName() + ".png"));
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
-		//This method is to initialize page objects in LoginPage class with driver
-//		PageFactory.initElements(DriverManager.getDriver(), LoginPage.class);
-//		PageFactory.initElements(DriverManager.getDriver(), HomePage.class);
-		
-		PageFactory.initElements(DriverManager.getDriver(), LoginPage.getInstance());
-		PageFactory.initElements(DriverManager.getDriver(), HomePage.getInstance());
+	}
+	
+	public void highlightingElement(WebElement element) {
+		JavascriptExecutor js =(JavascriptExecutor)DriverManager.getDriver();
+		js.executeScript("arguments[0].setAttribute('style','border: 3px solid blue');", element);
 	}
 
 }
