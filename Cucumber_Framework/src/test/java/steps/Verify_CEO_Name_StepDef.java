@@ -1,6 +1,7 @@
 package steps;
 
 import org.apache.logging.log4j.LogManager;
+import org.junit.Assert;
 
 import constants.DriverManager;
 import constants.GlobalVariables;
@@ -28,7 +29,7 @@ public class Verify_CEO_Name_StepDef {
 
 		try {
 			DriverManager.getDriver().get(GlobalVariables.APP_URL);
-			Thread.sleep(16000);
+			Thread.sleep(6000);
 			CommonUtils.getInstance().highlightingElement(LoginPage.getInstance().getUsername());
 			Thread.sleep(2000);
 			CommonUtils.getInstance().takeScreenshot();
@@ -40,11 +41,14 @@ public class Verify_CEO_Name_StepDef {
 			if (url.contains("dashboard")) {
 				Thread.sleep(2000);
 				logger.info("the user is logged in successfully and is on the HomePage");
+			}else {
+				throw new Exception();
 			}
 		} catch (Exception e) {
 			logger.error(e);
 			CommonUtils.getInstance().takeScreenshot();
-			e.printStackTrace();
+			Assert.fail(e.getMessage()); // here username is incorrect , since we have used try catch so it will show like successfully executed, so we are using Assert.fail to fail this scenario
+			
 		}
 
 	}
@@ -69,9 +73,9 @@ public class Verify_CEO_Name_StepDef {
 		System.out.println("clicks search button");
 	}
 
-	@Then("the user should see the CEO name as {string}")
-	public void the_user_should_see_the_ceo_name_as(String string) {
-		System.out.println("the user should see CEO name as" + string);
+	@Then("the user should see the CEO name")
+	public void the_user_should_see_the_ceo_name() {
+		System.out.println("the user should see CEO name");
 	}
 
 }
