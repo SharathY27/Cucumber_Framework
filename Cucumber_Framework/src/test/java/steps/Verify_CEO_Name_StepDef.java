@@ -28,15 +28,6 @@ public class Verify_CEO_Name_StepDef {
 		// To solve this error we need to implement singleton pattern
 
 		try {
-			DriverManager.getDriver().get(GlobalVariables.APP_URL);
-			Thread.sleep(6000);
-			CommonUtils.getInstance().highlightingElement(LoginPage.getInstance().getUsername());
-			Thread.sleep(2000);
-			CommonUtils.getInstance().takeScreenshot();
-			LoginPage.getInstance().getUsername().sendKeys(GlobalVariables.USERNAME);
-			LoginPage.getInstance().getPassword().sendKeys(GlobalVariables.PASSWORD);
-			LoginPage.getInstance().getLogin_Button().click();
-
 			String url = DriverManager.getDriver().getCurrentUrl();
 			if (url.contains("dashboard")) {
 				Thread.sleep(2000);

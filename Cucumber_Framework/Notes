@@ -11,3 +11,12 @@ Singleton Pattern:
 	Without Singleton Pattern = PageFactory.initElements(DriverManager.getDriver(), LoginPage.class);
 	
 	With Singleton Pattern = PageFactory.initElements(DriverManager.getDriver(), LoginPage.getInstance); 
+	
+	
+Page Factory Model with Explicit Wait:
+
+	If you are using explicit wait with page factory then you need to cast the webelement to By datatype for some methods, as it accepts only by datatype
+	so you need to pass By data type value
+	
+	
+	

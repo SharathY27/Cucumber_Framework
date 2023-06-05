@@ -36,3 +36,19 @@ Session ID: 46538537ed654dbad3c3a4391b54ee22
 2023-06-05 10:58:21,626 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
 2023-06-05 10:58:21,629 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
 2023-06-05 10:58:45,258 [ERROR] steps.Verify_CEO_Name_StepDef [main] java.lang.Exception
+2023-06-05 11:30:45,047 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-05 11:30:45,100 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-05 11:30:45,100 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-05 11:30:45,128 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-05 11:30:45,142 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-05 11:36:30,793 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-05 11:36:30,799 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-05 11:36:30,799 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-05 11:36:30,804 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-05 11:36:30,806 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2023-06-05 11:39:01,560 [ERROR] steps.Verify_CEO_Name_StepDef [main] java.lang.Exception
+2023-06-05 12:24:29,806 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2023-06-05 12:24:29,835 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2023-06-05 12:24:29,836 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2023-06-05 12:24:29,840 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2023-06-05 12:24:29,841 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
