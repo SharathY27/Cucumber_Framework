@@ -18,5 +18,16 @@ Page Factory Model with Explicit Wait:
 	If you are using explicit wait with page factory then you need to cast the webelement to By datatype for some methods, as it accepts only by datatype
 	so you need to pass By data type value
 	
+Built-in Reporting Options:
+
+1) Pretty plugin (Monochrome mode will present a better readable report)  //Will be printed in console
+2) Usage plugin (Incase if we need to know the time taken by each step)  //Will be printed in console
+3) If you want the report in separate file formats like HTML,Json,XML use following options:
+	a. html:target/cucumber-report/report.html
+	b. json:target/cucumber-report/report.json
+	c. junit:target/cucumber-report/report.xml   // Junit is used for generating xml plugins
+	
+	
+
 	
 	

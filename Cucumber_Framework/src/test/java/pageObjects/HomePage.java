@@ -3,6 +3,8 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.CommonUtils;
+
 public class HomePage {
 	
 	private static HomePage homeInstance;
@@ -23,6 +25,7 @@ public class HomePage {
 	private WebElement directory;
 
 	public WebElement getDirectory() {
+		CommonUtils.getInstance().highlightingElement(directory);
 		return directory;
 	}
 	
