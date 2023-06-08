@@ -3,6 +3,8 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.CommonUtils;
+
 public class LoginPage {
 
 	private static LoginPage loginInstance;
@@ -19,7 +21,7 @@ public class LoginPage {
 	}
 	
 	
-	@FindBy(name = "username1")
+	@FindBy(name = "username")
 	private WebElement Username;
 	@FindBy(name = "password")
 	private WebElement Password;
@@ -27,14 +29,17 @@ public class LoginPage {
 	private WebElement Login_Button;
 
 	public WebElement getUsername() {
+		CommonUtils.getInstance().highlightingElement(Username);
 		return Username;
 	}
 
 	public WebElement getPassword() {
+		CommonUtils.getInstance().highlightingElement(Password);
 		return Password;
 	}
 
 	public WebElement getLogin_Button() {
+		CommonUtils.getInstance().highlightingElement(Login_Button);
 		return Login_Button;
 	}
 

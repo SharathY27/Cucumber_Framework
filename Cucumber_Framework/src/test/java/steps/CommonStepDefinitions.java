@@ -4,12 +4,15 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import constants.DriverManager;
 import constants.GlobalVariables;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import pageObjects.LoginPage;
@@ -45,20 +48,30 @@ public class CommonStepDefinitions {
 		}
 	}
 
+	
+
 	public void login() throws InterruptedException {
 		try {
 			DriverManager.getDriver().get(GlobalVariables.APP_URL);
+			DriverManager.getDriver().manage().window().maximize();
 			Thread.sleep(6000);
-			CommonUtils.getInstance().highlightingElement(LoginPage.getInstance().getUsername());
-			Thread.sleep(2000);
-			CommonUtils.getInstance().takeScreenshot();
 			LoginPage.getInstance().getUsername().sendKeys(GlobalVariables.USERNAME);
 			LoginPage.getInstance().getPassword().sendKeys(GlobalVariables.PASSWORD);
 			LoginPage.getInstance().getLogin_Button().click();
+
 		} catch (Exception e) {
-			WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(10));
-			System.out.println("I am waiting");
+			WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
 			wait.until(ExpectedConditions.elementToBeClickable(LoginPage.getInstance().getUsername()));
+		}
+	}
+
+	// IF you are using extent report no need of explicitly calling screenshot
+	// utility for failed/passed scenarios, instead use this
+	@AfterStep
+	public void attachScreenshot(Scenario scenario) {
+		if (scenario.isFailed()) {
+			byte[] screenshotTaken = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshotTaken, "image/png", scenarioName);
 		}
 	}
 
