@@ -1,288 +1,78 @@
-2023-06-08 11:15:13,007 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 11:15:13,126 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 11:15:13,127 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 11:15:13,139 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 11:15:13,146 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 11:16:35,088 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 11:16:46,297 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 11:16:54,042 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form//button[text()[normalize-space()='View'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//form//button[text()[normalize-space()='View']' is not a valid XPath expression.
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b191b9708fc190d8e0cd05cd91dc5dd, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51916}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51916/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b191b9708fc190d8e0cd05cd91dc5dd
-2023-06-08 12:38:35,888 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:38:35,893 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:38:35,893 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:38:35,897 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:38:35,899 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:39:32,360 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 12:40:38,830 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:40:38,835 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:40:38,835 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:40:38,839 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:40:38,841 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:40:59,776 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 12:40:59,901 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53e460e33e8a1f14d46af0a4cc7c68fc, findElement {using=link text, value=Directory}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52096/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53e460e33e8a1f14d46af0a4cc7c68fc
-2023-06-08 12:41:06,278 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li//span[text()='Time']"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53e460e33e8a1f14d46af0a4cc7c68fc, findElement {using=xpath, value=//ul/li//span[text()='Time']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52096/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53e460e33e8a1f14d46af0a4cc7c68fc
-2023-06-08 12:41:06,490 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form//button[text()[normalize-space()='View'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//form//button[text()[normalize-space()='View']' is not a valid XPath expression.
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [53e460e33e8a1f14d46af0a4cc7c68fc, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52096/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 53e460e33e8a1f14d46af0a4cc7c68fc
-2023-06-08 12:42:10,674 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:42:10,678 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:42:10,678 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:42:10,682 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:42:10,684 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:42:28,606 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 12:42:28,667 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14c52ede740a725dbf2a9f8d8c2a2f77, findElement {using=link text, value=Directory}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14c52ede740a725dbf2a9f8d8c2a2f77
-2023-06-08 12:42:35,051 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li//span[text()='Time']"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14c52ede740a725dbf2a9f8d8c2a2f77, findElement {using=xpath, value=//ul/li//span[text()='Time']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14c52ede740a725dbf2a9f8d8c2a2f77
-2023-06-08 12:42:35,220 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form//button[text()[normalize-space()='View'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//form//button[text()[normalize-space()='View']' is not a valid XPath expression.
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14c52ede740a725dbf2a9f8d8c2a2f77, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14c52ede740a725dbf2a9f8d8c2a2f77
-2023-06-08 12:43:27,923 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:43:27,928 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:43:27,928 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:43:27,932 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:43:27,934 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:43:56,829 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 12:43:57,007 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7872f8a037af238b57f4f21e850b37b5, findElement {using=link text, value=Directory}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52180/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7872f8a037af238b57f4f21e850b37b5
-2023-06-08 12:44:03,111 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li//span[text()='Time']"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7872f8a037af238b57f4f21e850b37b5, findElement {using=xpath, value=//ul/li//span[text()='Time']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52180/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7872f8a037af238b57f4f21e850b37b5
-2023-06-08 12:44:03,152 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7872f8a037af238b57f4f21e850b37b5, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52180/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7872f8a037af238b57f4f21e850b37b5
-2023-06-08 12:46:04,839 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:46:04,843 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:46:04,843 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:46:04,848 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:46:04,850 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:46:21,485 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 12:46:21,552 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db356e4453c0dd6247bedee13f28102a, findElement {using=link text, value=Directory}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52221/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db356e4453c0dd6247bedee13f28102a
-2023-06-08 12:46:27,644 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li//span[text()='Time']"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db356e4453c0dd6247bedee13f28102a, findElement {using=xpath, value=//ul/li//span[text()='Time']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52221/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db356e4453c0dd6247bedee13f28102a
-2023-06-08 12:46:27,679 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db356e4453c0dd6247bedee13f28102a, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52221/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db356e4453c0dd6247bedee13f28102a
-2023-06-08 12:49:44,761 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:49:44,765 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:49:44,765 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:49:44,769 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:49:44,771 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:50:17,334 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 12:50:18,561 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 12:50:26,271 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [419876e7bef6eb2378637e04406cf69c, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52260/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 419876e7bef6eb2378637e04406cf69c
-2023-06-08 12:51:13,093 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 12:51:13,098 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 12:51:13,098 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 12:51:13,102 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 12:51:13,104 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 12:51:32,318 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 12:51:33,425 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 12:51:40,565 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b3ffc1e4b1aad43270771167408ee2e9, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52314/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b3ffc1e4b1aad43270771167408ee2e9
-2023-06-08 13:00:38,906 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 13:00:38,910 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 13:00:38,911 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 13:00:38,914 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 13:00:38,917 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 13:01:08,317 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 13:01:10,291 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 13:01:18,262 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37a8c55df1c68b6f34862349731381c2, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52361/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a8c55df1c68b6f34862349731381c2
-2023-06-08 13:15:51,638 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 13:15:51,643 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 13:15:51,643 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 13:15:51,647 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 13:15:51,649 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 13:16:44,617 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] java.lang.Exception
-2023-06-08 13:16:45,009 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Directory"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e06e31f6a167889afcb84584922ff66, findElement {using=link text, value=Directory}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52420/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e06e31f6a167889afcb84584922ff66
-2023-06-08 13:16:52,016 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li//span[text()='Time']"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e06e31f6a167889afcb84584922ff66, findElement {using=xpath, value=//ul/li//span[text()='Time']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52420/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e06e31f6a167889afcb84584922ff66
-2023-06-08 13:16:52,072 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e06e31f6a167889afcb84584922ff66, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52420/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e06e31f6a167889afcb84584922ff66
-2023-06-08 13:39:44,256 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 13:39:44,303 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 13:39:44,304 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 13:39:44,320 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 13:39:44,328 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 13:41:13,500 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 13:41:48,294 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 13:41:58,569 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form//button[text()[normalize-space()='View']]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f76ce331bfbd7c301f55b189410e4426, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52650/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f76ce331bfbd7c301f55b189410e4426
-2023-06-08 13:48:27,780 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 13:48:27,824 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 13:48:27,825 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 13:48:27,847 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 13:48:27,857 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 13:49:31,766 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 13:49:52,289 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 13:50:06,265 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form//button[text()[normalize-space()='View'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//form//button[text()[normalize-space()='View']' is not a valid XPath expression.
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [89c710521dc19c27894a5a12777ef72d, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53013}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53013/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 89c710521dc19c27894a5a12777ef72d
-2023-06-08 13:56:55,773 [INFO ] steps.CommonStepDefinitions [main] Execution started
-2023-06-08 13:56:55,795 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
-2023-06-08 13:56:55,796 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
-2023-06-08 13:56:55,818 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
-2023-06-08 13:56:55,826 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
-2023-06-08 13:57:38,105 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user is logged in successfully and is on the HomePage
-2023-06-08 13:57:43,536 [INFO ] steps.Verify_Menu_Button_Functionality_StepDef [main] the user clicks on the directory option from Menu bar
-2023-06-08 13:57:53,285 [ERROR] steps.Verify_Menu_Button_Functionality_StepDef [main] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //form//button[text()[normalize-space()='View'] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//form//button[text()[normalize-space()='View']' is not a valid XPath expression.
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1591d96f8122bba793013134ac0a3228, findElement {using=xpath, value=//form//button[text()[normalize-space()='View']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Sharath\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53110}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53110/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1591d96f8122bba793013134ac0a3228
+2024-02-27 16:06:02,145 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:06:02,217 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:06:02,217 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:06:02,241 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 16:06:02,250 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 16:11:35,585 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:11:35,604 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:11:35,604 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:19:24,628 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:19:24,719 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:19:24,720 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:19:24,730 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 16:19:25,360 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 16:22:52,385 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:22:52,390 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:22:52,390 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:22:52,394 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 16:22:52,397 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 16:40:58,537 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:40:58,585 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:40:58,586 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:40:58,638 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 16:40:58,663 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 16:55:24,125 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 16:55:24,165 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 16:55:24,166 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 16:55:24,195 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 16:55:24,211 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:10:05,702 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:10:05,862 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:10:05,863 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:10:05,901 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:10:06,262 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:11:56,872 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:11:56,883 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:11:56,884 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:11:56,907 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:11:56,916 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:32:56,081 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:32:56,098 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:32:56,099 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:32:56,105 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:32:56,108 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:37:55,493 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:37:55,530 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:37:55,531 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:37:55,633 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:37:55,707 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:40:38,245 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:40:38,254 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:40:38,256 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:40:38,286 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:40:38,315 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:47:10,902 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:47:10,906 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:47:10,907 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:47:10,924 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:47:10,934 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 17:59:45,381 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 17:59:45,386 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 17:59:45,386 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 17:59:45,390 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 17:59:45,391 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 18:10:11,113 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 18:10:11,123 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 18:10:11,124 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 18:10:11,183 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 18:10:11,192 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 18:12:23,036 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 18:12:23,039 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 18:12:23,040 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 18:12:23,081 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 18:12:23,090 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
+2024-02-27 18:15:11,282 [INFO ] steps.CommonStepDefinitions [main] Execution started
+2024-02-27 18:15:11,286 [INFO ] steps.CommonStepDefinitions [main] Instantiating commonUtils
+2024-02-27 18:15:11,287 [INFO ] steps.CommonStepDefinitions [main] Loading properties file
+2024-02-27 18:15:11,290 [INFO ] steps.CommonStepDefinitions [main] Checking the driver is NULL or NOT?
+2024-02-27 18:15:11,292 [INFO ] steps.CommonStepDefinitions [main] Driver is NULL, Instantiated!
